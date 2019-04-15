@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.58.0",
-  },
   "keywords": [
     "react-native"
   ],
