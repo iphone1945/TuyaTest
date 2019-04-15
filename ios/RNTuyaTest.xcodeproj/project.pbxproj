@@ -8,6 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNTuyaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNTuyaTest.m */; };
+		DB05639622643187006B2A34 /* TuyaRNActivatorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05635622643186006B2A34 /* TuyaRNActivatorModule.m */; };
+		DB05639722643187006B2A34 /* TuyaRNHomeMemberModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05635A22643186006B2A34 /* TuyaRNHomeMemberModule.m */; };
+		DB05639822643187006B2A34 /* TuyaRNHomeManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05635C22643187006B2A34 /* TuyaRNHomeManagerModule.m */; };
+		DB05639922643187006B2A34 /* TuyaRNHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05635E22643187006B2A34 /* TuyaRNHomeModule.m */; };
+		DB05639A22643187006B2A34 /* TuyaRNHomeDataManagerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05635F22643187006B2A34 /* TuyaRNHomeDataManagerModule.m */; };
+		DB05639B22643187006B2A34 /* TuyaRNShareModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636222643187006B2A34 /* TuyaRNShareModule.m */; };
+		DB05639C22643187006B2A34 /* TuyaRNDeviceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636522643187006B2A34 /* TuyaRNDeviceModule.m */; };
+		DB05639D22643187006B2A34 /* TuyaRNRoomModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636822643187006B2A34 /* TuyaRNRoomModule.m */; };
+		DB05639E22643187006B2A34 /* TuyaRNCoreModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636A22643187006B2A34 /* TuyaRNCoreModule.m */; };
+		DB05639F22643187006B2A34 /* TuyaCoreApi.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636B22643187006B2A34 /* TuyaCoreApi.m */; };
+		DB0563A022643187006B2A34 /* TuyaRNGroupModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05636E22643187006B2A34 /* TuyaRNGroupModule.m */; };
+		DB0563A122643187006B2A34 /* TuyaRNTimerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05637122643187006B2A34 /* TuyaRNTimerModule.m */; };
+		DB0563A222643187006B2A34 /* TuyaRNMessageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05637422643187006B2A34 /* TuyaRNMessageModule.m */; };
+		DB0563A322643187006B2A34 /* TuyaRNHomeListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05637A22643187006B2A34 /* TuyaRNHomeListener.m */; };
+		DB0563A422643187006B2A34 /* TuyaRNDeviceListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05637D22643187006B2A34 /* TuyaRNDeviceListener.m */; };
+		DB0563A522643187006B2A34 /* TuyaRNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05637F22643187006B2A34 /* TuyaRNEventEmitter.m */; };
+		DB0563A622643187006B2A34 /* TuyaRNHomeManagerListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638022643187006B2A34 /* TuyaRNHomeManagerListener.m */; };
+		DB0563A722643187006B2A34 /* TuyaRNGroupListener.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638122643187006B2A34 /* TuyaRNGroupListener.m */; };
+		DB0563A822643187006B2A34 /* TuyaRNUtils+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638222643187006B2A34 /* TuyaRNUtils+Cache.m */; };
+		DB0563A922643187006B2A34 /* TuyaRNUtils+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638322643187006B2A34 /* TuyaRNUtils+Network.m */; };
+		DB0563AA22643187006B2A34 /* TuyaRNUtils+DeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638422643187006B2A34 /* TuyaRNUtils+DeviceParser.m */; };
+		DB0563AB22643187006B2A34 /* TuyaRNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638922643187006B2A34 /* TuyaRNUtils.m */; };
+		DB0563AC22643187006B2A34 /* TuyaRNUserModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638B22643187006B2A34 /* TuyaRNUserModule.m */; };
+		DB0563AD22643187006B2A34 /* TuyaRNFeedBackModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05638E22643187006B2A34 /* TuyaRNFeedBackModule.m */; };
+		DB0563AE22643187006B2A34 /* TuyaRNSceneModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05639122643187006B2A34 /* TuyaRNSceneModule.m */; };
+		DB0563AF22643187006B2A34 /* TuyaRNGatewayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DB05639522643187006B2A34 /* TuyaRNGatewayModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +52,57 @@
 		134814201AA4EA6300B7C361 /* libRNTuyaTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTuyaTest.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNTuyaTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTuyaTest.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNTuyaTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTuyaTest.m; sourceTree = "<group>"; };
+		DB05635522643186006B2A34 /* TuyaRNActivatorModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNActivatorModule.h; sourceTree = "<group>"; };
+		DB05635622643186006B2A34 /* TuyaRNActivatorModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNActivatorModule.m; sourceTree = "<group>"; };
+		DB05635822643186006B2A34 /* TuyaRNHomeManagerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeManagerModule.h; sourceTree = "<group>"; };
+		DB05635922643186006B2A34 /* TuyaRNHomeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeModule.h; sourceTree = "<group>"; };
+		DB05635A22643186006B2A34 /* TuyaRNHomeMemberModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeMemberModule.m; sourceTree = "<group>"; };
+		DB05635B22643186006B2A34 /* TuyaRNHomeDataManagerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeDataManagerModule.h; sourceTree = "<group>"; };
+		DB05635C22643187006B2A34 /* TuyaRNHomeManagerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeManagerModule.m; sourceTree = "<group>"; };
+		DB05635D22643187006B2A34 /* TuyaRNHomeMemberModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeMemberModule.h; sourceTree = "<group>"; };
+		DB05635E22643187006B2A34 /* TuyaRNHomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeModule.m; sourceTree = "<group>"; };
+		DB05635F22643187006B2A34 /* TuyaRNHomeDataManagerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeDataManagerModule.m; sourceTree = "<group>"; };
+		DB05636122643187006B2A34 /* TuyaRNShareModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNShareModule.h; sourceTree = "<group>"; };
+		DB05636222643187006B2A34 /* TuyaRNShareModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNShareModule.m; sourceTree = "<group>"; };
+		DB05636422643187006B2A34 /* TuyaRNDeviceModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNDeviceModule.h; sourceTree = "<group>"; };
+		DB05636522643187006B2A34 /* TuyaRNDeviceModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNDeviceModule.m; sourceTree = "<group>"; };
+		DB05636722643187006B2A34 /* TuyaRNRoomModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNRoomModule.h; sourceTree = "<group>"; };
+		DB05636822643187006B2A34 /* TuyaRNRoomModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNRoomModule.m; sourceTree = "<group>"; };
+		DB05636A22643187006B2A34 /* TuyaRNCoreModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNCoreModule.m; sourceTree = "<group>"; };
+		DB05636B22643187006B2A34 /* TuyaCoreApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaCoreApi.m; sourceTree = "<group>"; };
+		DB05636C22643187006B2A34 /* TuyaRNCoreModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNCoreModule.h; sourceTree = "<group>"; };
+		DB05636E22643187006B2A34 /* TuyaRNGroupModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNGroupModule.m; sourceTree = "<group>"; };
+		DB05636F22643187006B2A34 /* TuyaRNGroupModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNGroupModule.h; sourceTree = "<group>"; };
+		DB05637122643187006B2A34 /* TuyaRNTimerModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNTimerModule.m; sourceTree = "<group>"; };
+		DB05637222643187006B2A34 /* TuyaRNTimerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNTimerModule.h; sourceTree = "<group>"; };
+		DB05637422643187006B2A34 /* TuyaRNMessageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNMessageModule.m; sourceTree = "<group>"; };
+		DB05637522643187006B2A34 /* TuyaRNMessageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNMessageModule.h; sourceTree = "<group>"; };
+		DB05637822643187006B2A34 /* TuyaRNEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNEventEmitter.h; sourceTree = "<group>"; };
+		DB05637922643187006B2A34 /* TuyaRNDeviceListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNDeviceListener.h; sourceTree = "<group>"; };
+		DB05637A22643187006B2A34 /* TuyaRNHomeListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeListener.m; sourceTree = "<group>"; };
+		DB05637B22643187006B2A34 /* TuyaRNGroupListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNGroupListener.h; sourceTree = "<group>"; };
+		DB05637C22643187006B2A34 /* TuyaRNHomeManagerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeManagerListener.h; sourceTree = "<group>"; };
+		DB05637D22643187006B2A34 /* TuyaRNDeviceListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNDeviceListener.m; sourceTree = "<group>"; };
+		DB05637E22643187006B2A34 /* TuyaRNHomeListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNHomeListener.h; sourceTree = "<group>"; };
+		DB05637F22643187006B2A34 /* TuyaRNEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNEventEmitter.m; sourceTree = "<group>"; };
+		DB05638022643187006B2A34 /* TuyaRNHomeManagerListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNHomeManagerListener.m; sourceTree = "<group>"; };
+		DB05638122643187006B2A34 /* TuyaRNGroupListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNGroupListener.m; sourceTree = "<group>"; };
+		DB05638222643187006B2A34 /* TuyaRNUtils+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TuyaRNUtils+Cache.m"; sourceTree = "<group>"; };
+		DB05638322643187006B2A34 /* TuyaRNUtils+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TuyaRNUtils+Network.m"; sourceTree = "<group>"; };
+		DB05638422643187006B2A34 /* TuyaRNUtils+DeviceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TuyaRNUtils+DeviceParser.m"; sourceTree = "<group>"; };
+		DB05638522643187006B2A34 /* TuyaRNUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNUtils.h; sourceTree = "<group>"; };
+		DB05638622643187006B2A34 /* TuyaRNUtils+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TuyaRNUtils+Network.h"; sourceTree = "<group>"; };
+		DB05638722643187006B2A34 /* TuyaRNUtils+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TuyaRNUtils+Cache.h"; sourceTree = "<group>"; };
+		DB05638822643187006B2A34 /* TuyaRNUtils+DeviceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TuyaRNUtils+DeviceParser.h"; sourceTree = "<group>"; };
+		DB05638922643187006B2A34 /* TuyaRNUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNUtils.m; sourceTree = "<group>"; };
+		DB05638B22643187006B2A34 /* TuyaRNUserModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNUserModule.m; sourceTree = "<group>"; };
+		DB05638C22643187006B2A34 /* TuyaRNUserModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNUserModule.h; sourceTree = "<group>"; };
+		DB05638E22643187006B2A34 /* TuyaRNFeedBackModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNFeedBackModule.m; sourceTree = "<group>"; };
+		DB05638F22643187006B2A34 /* TuyaRNFeedBackModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNFeedBackModule.h; sourceTree = "<group>"; };
+		DB05639122643187006B2A34 /* TuyaRNSceneModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNSceneModule.m; sourceTree = "<group>"; };
+		DB05639222643187006B2A34 /* TuyaRNSceneModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNSceneModule.h; sourceTree = "<group>"; };
+		DB05639422643187006B2A34 /* TuyaRNGatewayModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuyaRNGatewayModule.h; sourceTree = "<group>"; };
+		DB05639522643187006B2A34 /* TuyaRNGatewayModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuyaRNGatewayModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +127,189 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				DB05635322643186006B2A34 /* TuyaRNSDK */,
 				B3E7B5881CC2AC0600A0062D /* RNTuyaTest.h */,
 				B3E7B5891CC2AC0600A0062D /* RNTuyaTest.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		DB05635322643186006B2A34 /* TuyaRNSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DB05635422643186006B2A34 /* Activator */,
+				DB05635722643186006B2A34 /* Home */,
+				DB05636022643187006B2A34 /* ShareDevice */,
+				DB05636322643187006B2A34 /* DeviceControl */,
+				DB05636622643187006B2A34 /* Room */,
+				DB05636922643187006B2A34 /* Core */,
+				DB05636D22643187006B2A34 /* Group */,
+				DB05637022643187006B2A34 /* Timer */,
+				DB05637322643187006B2A34 /* MessageCenter */,
+				DB05637622643187006B2A34 /* Utils */,
+				DB05638A22643187006B2A34 /* User */,
+				DB05638D22643187006B2A34 /* Feedback */,
+				DB05639022643187006B2A34 /* Scene */,
+				DB05639322643187006B2A34 /* GateWay */,
+			);
+			path = TuyaRNSDK;
+			sourceTree = "<group>";
+		};
+		DB05635422643186006B2A34 /* Activator */ = {
+			isa = PBXGroup;
+			children = (
+				DB05635522643186006B2A34 /* TuyaRNActivatorModule.h */,
+				DB05635622643186006B2A34 /* TuyaRNActivatorModule.m */,
+			);
+			path = Activator;
+			sourceTree = "<group>";
+		};
+		DB05635722643186006B2A34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DB05635822643186006B2A34 /* TuyaRNHomeManagerModule.h */,
+				DB05635922643186006B2A34 /* TuyaRNHomeModule.h */,
+				DB05635A22643186006B2A34 /* TuyaRNHomeMemberModule.m */,
+				DB05635B22643186006B2A34 /* TuyaRNHomeDataManagerModule.h */,
+				DB05635C22643187006B2A34 /* TuyaRNHomeManagerModule.m */,
+				DB05635D22643187006B2A34 /* TuyaRNHomeMemberModule.h */,
+				DB05635E22643187006B2A34 /* TuyaRNHomeModule.m */,
+				DB05635F22643187006B2A34 /* TuyaRNHomeDataManagerModule.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DB05636022643187006B2A34 /* ShareDevice */ = {
+			isa = PBXGroup;
+			children = (
+				DB05636122643187006B2A34 /* TuyaRNShareModule.h */,
+				DB05636222643187006B2A34 /* TuyaRNShareModule.m */,
+			);
+			path = ShareDevice;
+			sourceTree = "<group>";
+		};
+		DB05636322643187006B2A34 /* DeviceControl */ = {
+			isa = PBXGroup;
+			children = (
+				DB05636422643187006B2A34 /* TuyaRNDeviceModule.h */,
+				DB05636522643187006B2A34 /* TuyaRNDeviceModule.m */,
+			);
+			path = DeviceControl;
+			sourceTree = "<group>";
+		};
+		DB05636622643187006B2A34 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				DB05636722643187006B2A34 /* TuyaRNRoomModule.h */,
+				DB05636822643187006B2A34 /* TuyaRNRoomModule.m */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		DB05636922643187006B2A34 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB05636A22643187006B2A34 /* TuyaRNCoreModule.m */,
+				DB05636B22643187006B2A34 /* TuyaCoreApi.m */,
+				DB05636C22643187006B2A34 /* TuyaRNCoreModule.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DB05636D22643187006B2A34 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				DB05636E22643187006B2A34 /* TuyaRNGroupModule.m */,
+				DB05636F22643187006B2A34 /* TuyaRNGroupModule.h */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		DB05637022643187006B2A34 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				DB05637122643187006B2A34 /* TuyaRNTimerModule.m */,
+				DB05637222643187006B2A34 /* TuyaRNTimerModule.h */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		DB05637322643187006B2A34 /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				DB05637422643187006B2A34 /* TuyaRNMessageModule.m */,
+				DB05637522643187006B2A34 /* TuyaRNMessageModule.h */,
+			);
+			path = MessageCenter;
+			sourceTree = "<group>";
+		};
+		DB05637622643187006B2A34 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB05637722643187006B2A34 /* Listener */,
+				DB05638222643187006B2A34 /* TuyaRNUtils+Cache.m */,
+				DB05638322643187006B2A34 /* TuyaRNUtils+Network.m */,
+				DB05638422643187006B2A34 /* TuyaRNUtils+DeviceParser.m */,
+				DB05638522643187006B2A34 /* TuyaRNUtils.h */,
+				DB05638622643187006B2A34 /* TuyaRNUtils+Network.h */,
+				DB05638722643187006B2A34 /* TuyaRNUtils+Cache.h */,
+				DB05638822643187006B2A34 /* TuyaRNUtils+DeviceParser.h */,
+				DB05638922643187006B2A34 /* TuyaRNUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DB05637722643187006B2A34 /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				DB05637822643187006B2A34 /* TuyaRNEventEmitter.h */,
+				DB05637922643187006B2A34 /* TuyaRNDeviceListener.h */,
+				DB05637A22643187006B2A34 /* TuyaRNHomeListener.m */,
+				DB05637B22643187006B2A34 /* TuyaRNGroupListener.h */,
+				DB05637C22643187006B2A34 /* TuyaRNHomeManagerListener.h */,
+				DB05637D22643187006B2A34 /* TuyaRNDeviceListener.m */,
+				DB05637E22643187006B2A34 /* TuyaRNHomeListener.h */,
+				DB05637F22643187006B2A34 /* TuyaRNEventEmitter.m */,
+				DB05638022643187006B2A34 /* TuyaRNHomeManagerListener.m */,
+				DB05638122643187006B2A34 /* TuyaRNGroupListener.m */,
+			);
+			path = Listener;
+			sourceTree = "<group>";
+		};
+		DB05638A22643187006B2A34 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				DB05638B22643187006B2A34 /* TuyaRNUserModule.m */,
+				DB05638C22643187006B2A34 /* TuyaRNUserModule.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		DB05638D22643187006B2A34 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				DB05638E22643187006B2A34 /* TuyaRNFeedBackModule.m */,
+				DB05638F22643187006B2A34 /* TuyaRNFeedBackModule.h */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		DB05639022643187006B2A34 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				DB05639122643187006B2A34 /* TuyaRNSceneModule.m */,
+				DB05639222643187006B2A34 /* TuyaRNSceneModule.h */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		DB05639322643187006B2A34 /* GateWay */ = {
+			isa = PBXGroup;
+			children = (
+				DB05639422643187006B2A34 /* TuyaRNGatewayModule.h */,
+				DB05639522643187006B2A34 /* TuyaRNGatewayModule.m */,
+			);
+			path = GateWay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +368,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB05639C22643187006B2A34 /* TuyaRNDeviceModule.m in Sources */,
+				DB05639F22643187006B2A34 /* TuyaCoreApi.m in Sources */,
+				DB0563A322643187006B2A34 /* TuyaRNHomeListener.m in Sources */,
+				DB0563AE22643187006B2A34 /* TuyaRNSceneModule.m in Sources */,
+				DB05639722643187006B2A34 /* TuyaRNHomeMemberModule.m in Sources */,
+				DB05639D22643187006B2A34 /* TuyaRNRoomModule.m in Sources */,
+				DB0563AC22643187006B2A34 /* TuyaRNUserModule.m in Sources */,
+				DB0563A822643187006B2A34 /* TuyaRNUtils+Cache.m in Sources */,
+				DB0563A122643187006B2A34 /* TuyaRNTimerModule.m in Sources */,
+				DB05639E22643187006B2A34 /* TuyaRNCoreModule.m in Sources */,
+				DB0563A922643187006B2A34 /* TuyaRNUtils+Network.m in Sources */,
+				DB0563A722643187006B2A34 /* TuyaRNGroupListener.m in Sources */,
+				DB05639822643187006B2A34 /* TuyaRNHomeManagerModule.m in Sources */,
+				DB0563AA22643187006B2A34 /* TuyaRNUtils+DeviceParser.m in Sources */,
+				DB05639622643187006B2A34 /* TuyaRNActivatorModule.m in Sources */,
+				DB0563AB22643187006B2A34 /* TuyaRNUtils.m in Sources */,
+				DB05639A22643187006B2A34 /* TuyaRNHomeDataManagerModule.m in Sources */,
+				DB0563AF22643187006B2A34 /* TuyaRNGatewayModule.m in Sources */,
+				DB0563A422643187006B2A34 /* TuyaRNDeviceListener.m in Sources */,
+				DB0563A622643187006B2A34 /* TuyaRNHomeManagerListener.m in Sources */,
+				DB0563A022643187006B2A34 /* TuyaRNGroupModule.m in Sources */,
+				DB0563AD22643187006B2A34 /* TuyaRNFeedBackModule.m in Sources */,
+				DB05639922643187006B2A34 /* TuyaRNHomeModule.m in Sources */,
+				DB0563A522643187006B2A34 /* TuyaRNEventEmitter.m in Sources */,
+				DB05639B22643187006B2A34 /* TuyaRNShareModule.m in Sources */,
+				DB0563A222643187006B2A34 /* TuyaRNMessageModule.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNTuyaTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
